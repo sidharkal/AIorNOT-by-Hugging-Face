@@ -1,4 +1,4 @@
-# AIorNOT-by-Hugging-Face
+# AIorNOT-From-Hugging-Face
 
 In this competition, your task is to build a model that can identify ai generated images.
 Cancel changes
