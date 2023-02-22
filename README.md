@@ -10,6 +10,7 @@ The dataset consists of approximately 31000 images, some of which have been gene
 ## Submission format and evaluation metric
 The evaluation metric for this competition is logloss. The submission file should be a csv file with the following format:
 
+```
 id,label
 0.jpg,0.1
 1.jpg,0.5
@@ -18,10 +19,11 @@ id,label
 1000.jpg,0.2
 10000.jpg,0.4
 10001.jpg,0.3
-.
-.
-.
+```
+
 Logloss metric is the same as available in scikit-learn. You can use the following code to calculate the logloss:
 
+```
 from sklearn.metrics import log_loss
 log_loss(y_true, y_pred)
+```
